@@ -1,0 +1,24 @@
+{
+  "name": "json-descriptor",
+  "version": "0.0.0",
+  "description": "A tool for create a basic json from another large json.",
+  "main": "./bin/json-desc",
+  "scripts": {
+    "test": "cd test && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mcapell/json-descriptor.git"
+  },
+  "keywords": [
+    "JSON",
+    "description",
+    "summary"
+  ],
+  "author": "Marc Capell <marc.capell@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcapell/json-descriptor/issues"
+  },
+  "homepage": "https://github.com/mcapell/json-descriptor"
+}

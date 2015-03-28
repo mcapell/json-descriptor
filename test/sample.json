@@ -1,0 +1,23 @@
+{
+    "list": [
+        {"foo": 1, "bar": 1},
+        {"foo": 2, "bar": 2},
+        {"foo": 3, "bar": 3},
+        {"foo": 4, "bar": 4},
+        {"foo": 5, "bar": 5},
+        {"foo": 6, "bar": 6},
+        {"foo": 7, "bar": 7}
+    ],
+    "string": "string",
+    "object": {
+        "foo": "string",
+        "bar": 1
+    },
+    "bool": true,
+    "object": {
+        "list": [
+            {"inner_number": 0, "inner_list": [5, 0]},
+            {"inner_number": 1, "inner_list": [10, 0]}
+        ]
+    }
+}

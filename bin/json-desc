@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+'use strict';
+
+var fs = require('fs'),
+  JSONTool = require('../lib/jsontool');
+
+function main() {
+  console.log(JSONTool.digest(fs.readFileSync('/dev/stdin')));
+}
+
+main();

@@ -1,0 +1,20 @@
+{
+	"list": [
+		{
+			"foo": "number",
+			"bar": "number"
+		}
+	],
+	"string": "string",
+	"object": {
+		"list": [
+			{
+				"inner_number": "number",
+				"inner_list": [
+					"number"
+				]
+			}
+		]
+	},
+	"bool": "boolean"
+}
